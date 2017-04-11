@@ -1,0 +1,31 @@
+#wrapper{
+    padding-bottom: 100px;
+}
+
+.description{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.description a{
+    color: #fdbaaf;
+}
+
+.description a:hover{
+    color: #FF9686;
+}
+
+.employee{
+    margin-top: 100px;
+}
+
+.employee img{
+    height: 15em;
+    width: 15em;
+}
+
+.btn-delete{
+    margin-top: 10px;
+}
+
+

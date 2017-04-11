@@ -1,0 +1,43 @@
+.video{
+    margin-bottom: 1.5em;
+}
+
+.pagination{
+    display: none;
+}
+
+.bottom-loading-gif{
+    width: 2em;
+    height: auto;
+    margin-left: 49%;
+}
+
+.btn-edit-video{
+    display: none;
+}
+
+@media (max-width: 991px){
+    .description{
+        display: none;
+    }
+
+    .btn-edit-video{
+        display: block;
+        margin-bottom: 2em;
+        margin-top: -1em;
+    }
+}
+
+
+.title{
+    font-size: 14pt;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+.text{
+    margin-top: 30px;
+    font-size: 11pt;
+}
+
+

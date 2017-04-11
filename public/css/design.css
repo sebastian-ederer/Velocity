@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    color: lightgray;
+    background-color: #202832;
+    font-family: "Century Gothic", Corbel, "Calibri Light", Arial, sans-serif;
+    height: 100% !important;
+}
+
+#wrapper{
+    background-color: #202832;
+    min-height: 85%;
+    height: auto !important;
+    margin-top: -15px;
+    padding-bottom: 20px;
+}
+
+#wrapper label {
+    font-size: 14pt;
+    font-weight: lighter;
+}
+
+.btn,
+.btn:hover,
+.btn:active,
+.btn:visited,
+.btn:focus {
+    color:white;
+}
+
+#preloader{
+  background-color:#202832; /* change if the mask should have another color then white */
+}
+
+/*Links on different pages */
+/* posts */
+.panel-body a{
+    color: #fdbaaf;
+}
+
+.panel-body a:hover{
+    color: #FF9686;
+}
+
+
+/* articles (for legal discloser and terms in this case) */
+article a{
+    color: #fdbaaf;
+}
+
+article a:hover{
+    color: #FF9686;
+}
+
+/*videos description*/
+
+.description a{
+    color: #fdbaaf;
+}
+
+.description a:hover{
+    color: #FF9686;
+}
+
+
+/* Navbar Color-changes */
+/*############################################################*/
+.navbar-default .navbar-nav > li > a {
+    color: lightgray; /*Change active text color here*/
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #fdbaaf ;
+}
+
+.navbar-default .navbar-header > a {
+    color: lightgray;
+}
+
+.navbar-default .navbar-header > a:hover {
+    color: #fdbaaf ;
+}
+
+.navbar-default .navbar-nav .active {
+    color: #fdbaaf;
+}
+
+.navbar-default .navbar-nav .navbar-right .dropdown > a{
+    color: lightgray;
+}
+
+.navbar-default .navbar-right .dropdown{
+    background-color: #202832;
+}
+
+.navbar .navbar-nav li.dropdown.open > .dropdown-toggle,
+.navbar .navbar-nav li.dropdown.active > .dropdown-toggle,
+.navbar .navbar-nav li.dropdown.open.active > .dropdown-toggle {
+    background: #202832;
+    color:  #fdbaaf;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
+    color: lightgray;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #202832;
+    border-color: lightgray;
+    border-radius: 5px;
+    color:lightgray;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,.navbar-default .navbar-nav .open .dropdown-menu {
+    color: #fdbaaf;
+}
+
+/*############################################################*/
+/* End Navbar Color-changes */
+
+#bs-example-navbar-collapse-1{
+    border-color: #fdbaaf ;
+}
+
+
+.navbar{
+    background-color: #202832;
+    border-color: #202832;
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    font-size: 20pt;
+}
+
+.navbar-brand img{
+    height: 29px;
+    margin-right: 10px;
+}
+
+nav{
+    font-size: 14pt;
+}
+
+.navbar-right{
+    margin-right: 20px;
+
+}
+
+.navbar a:hover{
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.dropdown-menu{
+  font-size: 14pt;
+}
+
+footer{
+    font-size: 12pt;
+}
+
+hr{
+    border-color: #fdbaaf;
+}

@@ -1,0 +1,41 @@
+/*Color scheme for default pagination */
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    z-index: 3;
+    color: #23527c;
+    background-color: white;
+    border-color: white;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a,
+.pagination > li > span:focus,
+.pagination > li > span {
+    z-index: 3;
+    color: #23527c;
+    background-color: lightgray;
+    border-color: lightgray;
+}
+
+.pagination > li.active > a:focus,
+.pagination > li.active > a,
+.pagination > li.active > span:focus,
+.pagination > li.active > span {
+    z-index: 3;
+    color: #23527c;
+    background-color: white;
+    border-color: white;
+}
+
+.pagination > li.active > a:focus,
+.pagination > li.active > a:hover,
+.pagination > li.active > span:focus,
+.pagination > li.active > span:hover {
+    z-index: 3;
+    color: #23527c;
+    background-color: white;
+    border-color: white;
+}
+/* End color scheme for default pagination */

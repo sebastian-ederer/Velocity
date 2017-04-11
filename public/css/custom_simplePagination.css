@@ -1,0 +1,32 @@
+/*Color scheme for simple pagination */
+.pager > li > a:focus,
+.pager > li > a:hover,
+.pager > li > span:focus,
+.pager > li > span:hover {
+    z-index: 3;
+    color: #202832;
+    background-color: white;
+    border-color: white;
+}
+
+.pager > li > a:focus,
+.pager > li > a,
+.pager > li > span:focus,
+.pager > li > span {
+    z-index: 3;
+    color: #202832;
+    background-color: lightgray;
+    border-color: lightgray;
+}
+
+.pager > li.disabled > a:focus,
+.pager > li.disabled > a,
+.pager > li.disabled > span:focus,
+.pager > li.disabled > span {
+    z-index: 3;
+    color: #202832;
+    background-color: lightgray;
+    border-color: lightgray;
+}
+
+/* End color scheme for simple pagination */

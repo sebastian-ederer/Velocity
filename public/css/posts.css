@@ -1,0 +1,12 @@
+.panel-body{
+    color: black;
+}
+
+@media (max-width: 991px){
+
+    .btn-edit-posts{
+        display: block;
+        margin-bottom: 2em;
+        margin-top: -1em;
+    }
+}
